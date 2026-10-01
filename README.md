@@ -15,6 +15,7 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 
 ## :newspaper: News
 
+- **[2025.09.25]** MARS is accepted by NerIPS 2026!! :tada:
 - **[2025.04.11]** We release [Training](#Training) and [Evaluation](#Evaluation) script for MARS. Feel free to try it now! :fireworks:
 - **[2025.02.24]** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
 
@@ -110,7 +111,7 @@ sh evaluation/eval_qwen.sh results/result_qwen3b_grounding_multi_ours.json groun
 Note: groundig for Qwen2.5-VL is absolute coordinates, but Qwen3-VL is relative coordinates, so remember to convert them when needed.
 
 ### TODOLIST
-- [ ] Data release
+- [x] Data release
 - [ ] Pre-trained model release
 
 
@@ -121,7 +122,7 @@ If you find this work useful, consider giving this repository a star :star: and 
 @article{zeng2026does,
   title={Does Seeing More Mean Knowing More? Mono-Anchored Advantage Normalization for Multi-Source Visual Reasoning},
   author={Zeng, Fanhu and Luo, Zhicong and Wang, Zefan and Li, You and Chen, Chi and Sun, Maosong},
-  journal={arXiv preprint arXiv:2605.25437},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
   year={2026}
 }
 ```
