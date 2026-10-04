@@ -16,8 +16,9 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 ## :newspaper: News
 
 - **[2025.09.25]** MARS is accepted by **NeurIPS 2026**!! :tada:
-- **[2025.04.11]** We release [Training](#Training) and [Evaluation](#Evaluation) script for MARS. Feel free to try it now! :fireworks:
-- **[2025.02.24]** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
+- **[2025.05.26]** We release [Training](#Training) and [Evaluation](#Evaluation) script for MARS. Feel free to try it now! :fireworks:
+- **[2025.05.25]** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
+- **[2025.05.20]** The data for reinforcement fine-tuning is launched on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MARS). :fire:
 
 ## :star2: Motivation
 <div align="center">
