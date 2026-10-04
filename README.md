@@ -15,7 +15,7 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 
 ## :newspaper: News
 
-- **[2025.09.25]** MARS is accepted by NerIPS 2026!! :tada:
+- **[2025.09.25]** MARS is accepted by **NeurIPS 2026**!! :tada:
 - **[2025.04.11]** We release [Training](#Training) and [Evaluation](#Evaluation) script for MARS. Feel free to try it now! :fireworks:
 - **[2025.02.24]** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
 
@@ -109,11 +109,6 @@ get the final results by giving the result file and the type of task:
 sh evaluation/eval_qwen.sh results/result_qwen3b_grounding_multi_ours.json grounding 0.5 
 ```
 Note: groundig for Qwen2.5-VL is absolute coordinates, but Qwen3-VL is relative coordinates, so remember to convert them when needed.
-
-### TODOLIST
-- [x] Data release
-- [ ] Pre-trained model release
-
 
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
