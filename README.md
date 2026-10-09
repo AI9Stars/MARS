@@ -15,10 +15,10 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 
 ## :newspaper: News
 
-- **[2025.09.25]** MARS is accepted by **NeurIPS 2026**!! :tada:
-- **[2025.05.26]** We release [Training](#Training) and [Evaluation](#Evaluation) script for MARS. Feel free to try it now! :fireworks:
-- **[2025.05.25]** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
-- **[2025.05.20]** The data for reinforcement fine-tuning is launched on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MARS). :fire:
+* **`[2026.09.25]`** MARS is accepted by **NeurIPS 2026**!! :tada:
+* **`[2026.05.26]`** We release [Training](#Training) and [Evaluation](#Evaluation) script for MARS. Feel free to try it now! :fireworks:
+* **`[2026.05.25]`** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
+* **`[2026.05.20]`** The data for reinforcement fine-tuning is launched on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MARS). :fire:
 
 ## :star2: Motivation
 <div align="center">
@@ -33,10 +33,8 @@ especially when their attributes and semantics have significant differences, suc
 
 We therefore aim to enable adaptive regulation of different sources during RLVR training and improve the performance of multi-source reasoning.
 
-
 ## :open_book: Abstract
 Visual reasoning through reinforcement learning with verifiable rewards (RLVR) has achieved remarkable progress. However, when dealing with multi-source inputs, existing approaches tend to treat them as a mere accumulation of information, lacking explicit mechanisms to distinguish whether integrating additional sources yields information gain or introduces interference. Therefore, they struggle to effectively model dynamic interaction when integrating multiple sources, particularly when they differ significantly in physical properties and semantics, \eg, infrared and depth, leading to inferior performance to mono-source reasoning when a certain source holds the dominant signal. To address this issue, we propose MARS, a novel mono-anchored multi-source reasoning framework that models each visual modality as an independent information source. Specifically, by treating mono-source rewards as dynamic anchors, our method explicitly incorporates the information gain introduced by multi-source fusion into advantage normalization and adaptively emphasizes mutual promotion between sources while suppressing potential noise or conflicts during RLVR. From theoretical analysis, our method effectively quantifies information gain introduced by multi-source integration in gradient estimation, enabling consistent modality regulation. Empirical results also show impressive 3.2% and 4.9% performance gains on GRPO and DAPO across diverse datasets, confirming the effectiveness of our method.
-
 
 ## :rocket: Quick Start
 
@@ -89,7 +87,6 @@ sh recipe/dapo/run_dapo_qwen2.5_3b.sh vllm llvip utils/reward_score/grounding.py
 
 we provide different rewards for mllms: grounding.py for groudning task, and vqa.py for vqa task. You can also train the CoT model on your own multi-source data based on standard training procedure of [LLaMAFactory](https://github.com/hiyouga/LLaMAFactory).
 
-
 ### Inference
 
 Merge the fine-tuned model:
@@ -122,7 +119,6 @@ If you find this work useful, consider giving this repository a star :star: and 
   year={2026}
 }
 ```
-
 
 ## Acknowlegdement
 
