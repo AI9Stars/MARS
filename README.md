@@ -14,15 +14,16 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 **TL;DR: An effective way for resolving conflict in multi-source visual reasoning.**
 
 <p align="center">
-  <a href="#-news">📰 News</a> ·
-  <a href="#-motivation">🌟 Motivation</a> ·
-  <a href="#-abstract">📖 Abstract</a> ·
-  <a href="#-quick-start">🚀 Quick Start</a> ·
-  <a href="#-train">🔥 Train</a> ·
-  <a href="#-evaluate">💎 Evaluate</a> ·
-  <a href="#-citation">📘 Citation</a>
+  <a href="#mars-news">:newspaper: News</a> ·
+  <a href="#mars-motivation">🌟 Motivation</a> ·
+  <a href="#mars-abstract">📖 Abstract</a> ·
+  <a href="#mars-quick-start">🚀 Quick Start</a> ·
+  <a href="#mars-train">🔥 Train</a> ·
+  <a href="#mars-evaluation">💎 Evaluation</a> ·
+  <a href="#mars-citation">📘 Citation</a>
 </p>
 
+<a name="mars-news"></a>
 ## :newspaper: News
 
 * **`[2026.09.25]`** MARS is accepted by **NeurIPS 2026**!! :tada:
@@ -30,6 +31,7 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 * **`[2026.05.25]`** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
 * **`[2026.05.20]`** The data for reinforcement fine-tuning is launched on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MARS). :firecracker:
 
+<a name="mars-motivation"></a>
 ## :star2: Motivation
 <div align="center">
   <img src=figures/illustration.png width="840px">
@@ -43,9 +45,11 @@ especially when their attributes and semantics have significant differences, suc
 
 We therefore aim to enable adaptive regulation of different sources during RLVR training and improve the performance of multi-source reasoning.
 
+<a name="mars-abstract"></a>
 ## :open_book: Abstract
 Visual reasoning through reinforcement learning with verifiable rewards (RLVR) has achieved remarkable progress. However, when dealing with multi-source inputs, existing approaches tend to treat them as a mere accumulation of information, lacking explicit mechanisms to distinguish whether integrating additional sources yields information gain or introduces interference. Therefore, they struggle to effectively model dynamic interaction when integrating multiple sources, particularly when they differ significantly in physical properties and semantics, \eg, infrared and depth, leading to inferior performance to mono-source reasoning when a certain source holds the dominant signal. To address this issue, we propose MARS, a novel mono-anchored multi-source reasoning framework that models each visual modality as an independent information source. Specifically, by treating mono-source rewards as dynamic anchors, our method explicitly incorporates the information gain introduced by multi-source fusion into advantage normalization and adaptively emphasizes mutual promotion between sources while suppressing potential noise or conflicts during RLVR. From theoretical analysis, our method effectively quantifies information gain introduced by multi-source integration in gradient estimation, enabling consistent modality regulation. Empirical results also show impressive 3.2% and 4.9% performance gains on GRPO and DAPO across diverse datasets, confirming the effectiveness of our method.
 
+<a name="mars-quick-start"></a>
 ## :rocket: Quick Start
 
 ### Install
@@ -81,6 +85,7 @@ We provide data for reinforcement fine-tuning:
 
 Download the images and put them in `data/images`. Download the RL data and put them appropriately for training below.
 
+<a name="mars-train"></a>
 ### Training
 
 Run the scripts for training. You can specify the task and parameters you are training.
@@ -110,6 +115,7 @@ sh evaluation/qwen_inference.sh /path/to/your/model /path/to/your/dataset data/r
 ```
 the dataset we use are provided in `data/questions`.
 
+<a name="mars-evaluation"></a>
 ### Evaluation
 
 get the final results by giving the result file and the type of task:
@@ -118,6 +124,7 @@ sh evaluation/eval_qwen.sh results/result_qwen3b_grounding_multi_ours.json groun
 ```
 Note: groundig for Qwen2.5-VL is absolute coordinates, but Qwen3-VL is relative coordinates, so remember to convert them when needed.
 
+<a name="mars-citation"></a>
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
