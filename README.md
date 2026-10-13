@@ -15,12 +15,12 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 
 <p align="center">
   <a href="#mars-news">:newspaper: News</a> ·
-  <a href="#mars-motivation">🌟 Motivation</a> ·
-  <a href="#mars-abstract">📖 Abstract</a> ·
-  <a href="#mars-quick-start">🚀 Quick Start</a> ·
-  <a href="#mars-train">🔥 Train</a> ·
-  <a href="#mars-evaluation">💎 Evaluation</a> ·
-  <a href="#mars-citation">📘 Citation</a>
+  <a href="#mars-motivation">:star2: Motivation</a> ·
+  <a href="#mars-abstract">:open_book: Abstract</a> ·
+  <a href="#mars-quick-start">:rocket: Quick Start</a> ·
+  <a href="#mars-train">:fire: Training</a> ·
+  <a href="#mars-evaluation">:diamond_shape_with_a_dot_inside: Evaluation</a> ·
+  <a href="#mars-citation">:blue_book: Citation</a>
 </p>
 
 <a name="mars-news"></a>
