@@ -13,12 +13,22 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 
 **TL;DR: An effective way for resolving conflict in multi-source visual reasoning.**
 
+<p align="center">
+  <a href="#-news">:newspaper: News</a> ·
+  <a href="#-motivation">:star2: Motivation</a> ·
+  <a href="#-abstract">:open_book: Abstract</a> ·
+  <a href="#-quick-start">:rocket: Quick Start</a> ·
+  <a href="#-train">:fire: Train</a> ·
+  <a href="#-evaluate">:diamond_shape_with_a_dot_inside: Evaluate</a> ·
+  <a href="#-citation">:blue_book: Citation</a>
+</p>
+
 ## :newspaper: News
 
 * **`[2026.09.25]`** MARS is accepted by **NeurIPS 2026**!! :tada:
 * **`[2026.05.26]`** We release [Training](#Training) and [Evaluation](#Evaluation) script for MARS. Feel free to try it now! :fireworks:
 * **`[2026.05.25]`** [MARS](https://arxiv.org/abs/2605.25437) is available on Arxiv. :candy:
-* **`[2026.05.20]`** The data for reinforcement fine-tuning is launched on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MARS). :fire:
+* **`[2026.05.20]`** The data for reinforcement fine-tuning is launched on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MARS). :firecracker:
 
 ## :star2: Motivation
 <div align="center">
@@ -38,7 +48,7 @@ Visual reasoning through reinforcement learning with verifiable rewards (RLVR) h
 
 ## :rocket: Quick Start
 
-## Install
+### Install
 
 Verl gives a detailed instruction for [installation](https://verl.readthedocs.io/en/latest/start/install.html) and we provide a quick start for environment:
 
