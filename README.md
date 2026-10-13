@@ -14,13 +14,13 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 **TL;DR: An effective way for resolving conflict in multi-source visual reasoning.**
 
 <p align="center">
-  <a href="#-news">:newspaper: News</a> ·
-  <a href="#-motivation">:star2: Motivation</a> ·
-  <a href="#-abstract">:open_book: Abstract</a> ·
-  <a href="#-quick-start">:rocket: Quick Start</a> ·
-  <a href="#-train">:fire: Train</a> ·
-  <a href="#-evaluate">:diamond_shape_with_a_dot_inside: Evaluate</a> ·
-  <a href="#-citation">:blue_book: Citation</a>
+  <a href="#-news">📰 News</a> ·
+  <a href="#-motivation">🌟 Motivation</a> ·
+  <a href="#-abstract">📖 Abstract</a> ·
+  <a href="#-quick-start">🚀 Quick Start</a> ·
+  <a href="#-train">🔥 Train</a> ·
+  <a href="#-evaluate">💎 Evaluate</a> ·
+  <a href="#-citation">📘 Citation</a>
 </p>
 
 ## :newspaper: News
