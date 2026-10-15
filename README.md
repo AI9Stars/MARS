@@ -8,6 +8,7 @@ This repo is the official implementation of the paper: **Does Seeing More Mean K
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2605.25437)
 [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MARS) 
+[![NeurIPS](https://img.shields.io/badge/NeurIPS-2026-blue.svg)](https://openreview.net/forum?id=IXNKGx1CUw)
 
 **Key words: Visual Reasoning, Multimodal Large Language Models, Reinforcement Learning, Multi-Source Perception.**
 
